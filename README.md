@@ -29,7 +29,7 @@ To get the project .......
   
 ##### Cloning the repository:  
  ```bash 
-https://github.com/Owiti-Charles/HoodWatch.git
+https://github.com/Amwata-Albert/HoodWatch.git
 ```
 ##### Navigate into the folder and install requirements  
  ```bash 
@@ -65,7 +65,7 @@ Open the application on your browser `127.0.0.1:8000`.
  
 ## Technology used  
   
-* [Python3.6](https://www.python.org/)  
+* [Python3.8](https://www.python.org/)  
 * [Django 2.2.6](https://docs.djangoproject.com/en/2.2/)  
 * [Heroku](https://heroku.com)  
   
@@ -74,9 +74,6 @@ Open the application on your browser `127.0.0.1:8000`.
 * There are no known bugs currently but pull requests are allowed incase you spot a bug  
   
 ## Contact Information   
-If you have any question or contributions, please email me at [mikeycharlesm7@gmail.com]  
-  
-## License 
-
-* [![License](https://img.shields.io/packagist/l/loopline-systems/closeio-api-wrapper.svg)](https://github.com/Owiti-Charles/Picture-Globe/blob/master/LICENSE)  
-* Copyright (c) 2019 **Owiti Charles**
+If you have any question or contributions, please email me at [albertptieno41@gmail.com]  
+ 
+* Copyright (c) 2020**Amwata Albert**
