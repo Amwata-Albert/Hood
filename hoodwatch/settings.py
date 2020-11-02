@@ -79,6 +79,11 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'hoodwatch.wsgi.application'
 
+
+import dj_database_url
+DATABASES = {}
+DATABASES['default'] = dj_database_url.config()
+
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
@@ -95,13 +100,20 @@ if config('MODE') == "dev":
 
      }
 #production
+
+
+
+
+
+
+'''
 else:  
     DATABASES = {
-    ' default': dj_database_url.config(
+    'default': dj_database_url.config(
         default=config('DATABASE_URL')
     )
 }
-
+'''
 db_from_env = dj_database_url.config(conn_max_age=500)
 DATABASES['default'].update(db_from_env)
 
