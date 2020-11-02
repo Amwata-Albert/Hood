@@ -1,5 +1,3 @@
-from django.contrib import admin
-from .models import Profile, NeighbourHood, Business, Post
 
 
 admin.site.register(Profile)
