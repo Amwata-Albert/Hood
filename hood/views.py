@@ -4,7 +4,8 @@ from .forms import SignupForm, BusinessForm
 from django.contrib.auth import login, authenticate
 from django.contrib.auth.decorators import login_required
 from .models import NeighbourHood, Profile, Business, Post
-
+from .forms import UpdateProfileForm, NeighbourHoodForm, PostForm
+from django.contrib.auth.models import User
 
 
 @login_required(login_url='login')
